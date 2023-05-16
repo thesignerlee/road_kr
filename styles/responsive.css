@@ -1,0 +1,24 @@
+@media screen and (max-width:1440px) {
+    /* 메인페이지 */
+    header {width:100%;}
+    main {width:100%;}
+    footer {width: 100%;}
+    .m_nav {display: none;}
+}/*1440*/
+@media screen and (max-width:1353px) {
+    /* 메인페이지 */
+
+    /* 헤더 */
+    .bg_h header .h_right .nav_sub {width: 100%;}
+    .bg_h header .h_right .nav_sub .sub > li {width:14%;}
+    .bg_h header .h_right .nav_sub .sub:nth-child(2) li:nth-child(6){width:12.3%;}
+}/*1353*/
+@media screen and (max-width:1024px) {
+    /* 메인페이지 */
+
+    /* 헤더 */
+    .bg_h header .h_right nav {display: none;}
+    .bg_h header .h_right .nav_sub {display: none;}
+    .bg_h header .h_right .t_m_sub .hamburger {display: block;}
+    .bg_h header .h_right .m_nav {width:100%;}
+}/*1024*/
